@@ -3,7 +3,7 @@ body {
     background-color: hsl(30, 38%, 92%);
     display: flex;
     width: fit-content;
-    transform: translateY(30%);
+    transform: translateY(40%);
     margin: auto;
 }
 h1 {
