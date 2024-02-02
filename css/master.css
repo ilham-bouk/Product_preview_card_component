@@ -1,13 +1,9 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: hsl(30, 38%, 92%);
-}
-.content {
     display: flex;
-    border-radius: 20px;
     width: fit-content;
-    overflow: hidden;
-    transform: translateY(50%);
+    transform: translateY(30%);
     margin: auto;
 }
 h1 {
@@ -17,32 +13,34 @@ p {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
 }
-img.main {
+header img {
     width: 300px;
+    border-radius: 20px 0 0 20px;
 }
-.container {
+main {
     width: 240px;
     height: 390px;
     background-color: white;
     padding: 30px;
     position: relative;
+    border-radius: 0 20px 20px 0;
 }
-.container p:first-of-type {
+main p:first-of-type {
     letter-spacing: 4px;
     margin: 0;
 }
-.container h1:first-of-type {
+main h1:first-of-type {
     color: hsl(212, 21%, 14%);
     line-height: 1;
 }
-.container p:last-of-type {
+main p:last-of-type {
     line-height: 1.8;
     padding: 5px 0;
 }
-.container h1:last-of-type {
+main h1:last-of-type {
     color: hsl(158, 36%, 37%);
 }
-.container span {
+main span {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
@@ -50,7 +48,7 @@ img.main {
     bottom: 103px;
     right: 70px;
 }
-.container button {
+main button {
     background-color: hsl(158, 36%, 37%);
     width: 240px;
     padding: 10px;
@@ -59,9 +57,9 @@ img.main {
     color: white;
     cursor: pointer;
 }
-.container button:hover {
+main button:hover {
     background-color: hsl(167.08deg 100% 12.75%);
 }
-.container button img {
+main button img {
     margin-right: 10px;
 }
